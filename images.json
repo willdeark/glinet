@@ -218,7 +218,7 @@
       "profile": "glinet_gl-x300b-nor",
       "version": "3.201",
       "imagebuilder": "3.5/openwrt-imagebuilder-ath79-nand_3.5",
-      "packages": "gl-base-files-ar gl-base-files-x300b gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci gl-xe300-mcu gl-upload gl-ipv6 rtty-openssl -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl"
+      "packages": "luci luci-mod-rpc gl-base-files-ar gl-base-files-x300b gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci gl-xe300-mcu gl-upload gl-ipv6 rtty-openssl -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl"
     },
     "x300b_2b": {
       "state": "testing",
@@ -226,7 +226,7 @@
       "version": "VB_3.201",
       "type": "2B",
       "imagebuilder": "3.5/openwrt-imagebuilder-ath79-nand_3.5",
-      "packages": "gl-base-files-ar gl-base-files-x300b gl-base-files-wbf gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci gl-xe300-mcu gl-upload gl-ipv6 rtty-openssl -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl openvswitch kmod-openvswitch-intree gl-xwf -gl-ui gl-2b-ui"
+      "packages": "luci luci-mod-rpc gl-base-files-ar gl-base-files-x300b gl-base-files-wbf gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci gl-xe300-mcu gl-upload gl-ipv6 rtty-openssl -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl openvswitch kmod-openvswitch-intree gl-xwf -gl-ui gl-2b-ui"
     },
     "xe300": {
       "state": "testing",
