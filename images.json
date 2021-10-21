@@ -97,7 +97,7 @@
 			"profile": "gl-mt300n-v2",
 			"version": "3.105",
 			"imagebuilder": "3.4/openwrt-imagebuilder-ramips-mt76x8_3.4",
-			"packages": "luci-base luci-compat $glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl"
+			"packages": "luci-base $glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl"
 		},
 		"n300": {
 			"profile": "microuter-n300",
