@@ -185,7 +185,7 @@
       "profile": "gl-mt300n-v2",
       "version": "3.201",
       "imagebuilder": "3.5/openwrt-imagebuilder-ramips-mt76x8_3.5",
-      "packages": "$glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl"
+      "packages": "luci-base luci-compat $glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl"
     },
     "mt300n-v2_2b": {
       "state": "testing",
@@ -202,7 +202,7 @@
       "profile": "microuter-n300",
       "version": "3.201",
       "imagebuilder": "3.5/openwrt-imagebuilder-ramips-mt76x8_3.5",
-      "packages": "luci luci-mod-rpc $glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl"
+      "packages": "$glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl"
     },
     "n300_2b": {
       "state": "testing",
