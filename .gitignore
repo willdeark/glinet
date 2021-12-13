@@ -2,3 +2,4 @@
 *.gz
 *.manifest
 Packages
+.DS_Store
