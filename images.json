@@ -209,7 +209,7 @@
 			"profile": "gl-mt300n-v2",
 			"version": "3.203",
 			"imagebuilder": "3.5/openwrt-imagebuilder-ramips-mt76x8_3.5",
-			"packages": "luci-base $glinet -gl-qos -gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl gl-sdk4-mtk-wifi-script -gl-ui -gl-portal -gl-tertf",
+			"packages": "luci-base $glinet -gl-qos -gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl gl-sdk4-mtk-wifi-script -gl-ui -gl-portal gl-tertf",
 			"files": "imagebuilder/3.5/openwrt-imagebuilder-ramips-mt76x8_3.5/files",
 			"arch": "mipsle"
 		},
