@@ -32,7 +32,9 @@
 			"version": "3.211",
 			"disabled": 0,
 			"imagebuilder": "3.8/openwrt-imagebuilder-ath79-nand_3.8",
-			"packages": "kmod-GobiNet kmod-GobiSerial gl-base-files-ar $basic $vpn $storage $usb $glinet gl-rtty smstools3 ssmtp"
+			"packages": "kmod-GobiNet kmod-GobiSerial gl-base-files-ar $basic $vpn $storage $usb $glinet gl-rtty smstools3 ssmtp -gl-ui",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-ath79-nand_3.8/files",
+			"arch": "mips"
 		},
 		"e750": {
 			"state": "develop",
@@ -72,7 +74,9 @@
 			"version": "3.211",
 			"disabled": 0,
 			"imagebuilder": "3.8/openwrt-imagebuilder-ath79-nand_3.8",
-			"packages": "gl-base-files-ar $basic $vpn $glinet -mwan3 -gl-modem"
+			"packages": "gl-base-files-ar $basic $vpn $glinet -mwan3 -gl-modem -gl-ui",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-ath79-nand_3.8/files",
+			"arch": "mips"
 		},
 		"ar300m": {
 			"state": "develop",
@@ -88,7 +92,9 @@
 			"profile": "glinet_gl-ar750s-nor-nand",
 			"version": "3.211",
 			"imagebuilder": "3.8/openwrt-imagebuilder-ath79-nand_3.8",
-			"packages": "gl-base-files-ar $basic $vpn $storage $usb $glinet kmod-fast-classifier kmod-shortcut-fe gl-tor gl-upload gl-rtty"
+			"packages": "gl-base-files-ar $basic $vpn $storage $usb $glinet kmod-fast-classifier kmod-shortcut-fe gl-tor gl-upload gl-rtty -gl-ui",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-ath79-nand_3.8/files",
+			"arch": "mips"
 		},
 		"mt1300": {
 			"state": "develop",
@@ -96,7 +102,9 @@
 			"profile": "gl-mt1300",
 			"version": "3.211",
 			"imagebuilder": "3.8/openwrt-imagebuilder-ramips-mt7621_3.8",
-			"packages": "$basic $storage $usb $glinet $vpn -kmod-mt76x2 -kmod-mt7603 kmod-mt7615 gl-qos-internal -gl-qos gl-base-files-mt -wpad-basic -lighttpd-mod-openssl gl-ble-ubus gl-ble_cfg_router_telink gl-ipv6 gl-tor kmod-i2c-algo-bit kmod-i2c-core kmod-i2c-gpio kmod-i2c-gpio-custom i2c-tools libiwinfo-lua minidlna wireless-tools kmod-sdhci kmod-sdhci-mt7620 kmod-nft-core kmod-nft-nat kmod-nft-offload gl-upload gl-rtty gl-sdk4-mtk-wifi gl-sdk4-mtk-apcli -i2c-tools"
+			"packages": "$basic $storage $usb $glinet $vpn -kmod-mt76x2 -kmod-mt7603 kmod-mt7615 gl-qos-internal -gl-qos gl-base-files-mt -wpad-basic -lighttpd-mod-openssl gl-ble-ubus gl-ble_cfg_router_telink gl-ipv6 gl-tor kmod-i2c-algo-bit kmod-i2c-core kmod-i2c-gpio kmod-i2c-gpio-custom i2c-tools libiwinfo-lua minidlna wireless-tools kmod-sdhci kmod-sdhci-mt7620 kmod-nft-core kmod-nft-nat kmod-nft-offload gl-upload gl-rtty gl-sdk4-mtk-wifi gl-sdk4-mtk-apcli -i2c-tools",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-ramips-mt7621_3.8/files",
+			"arch": "mipsle"
 		},
 		"mt300n-v2": {
 			"state": "develop",
@@ -104,7 +112,9 @@
 			"profile": "gl-mt300n-v2",
 			"version": "3.211",
 			"imagebuilder": "3.8/openwrt-imagebuilder-ramips-mt76x8_3.8",
-			"packages": "$glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl gl-sdk4-mtk-apcli mt76x8-uci2dat"
+			"packages": "$glinet -gl-qos gl-qos-internal gl-base-files-mt -kmod-mt76 -kmod-mt76-core -kmod-mt7603 kmod-mt7628 $basic $vpn $storage $usb -wpa-cli -kmod-rt2800-usb -lighttpd-mod-openssl gl-sdk4-mtk-apcli mt76x8-uci2dat",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-ramips-mt76x8_3.8/files",
+			"arch": "mipsle"
 		},
 		"n300": {
 			"state": "develop",
@@ -128,7 +138,9 @@
 			"version": "3.211",
 			"disabled": 0,
 			"imagebuilder": "3.8/openwrt-imagebuilder-ath79-nand_3.8",
-			"packages": "gl-base-files-ar gl-base-files-x300b gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci  gl-upload gl-ipv6 gl-rtty -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl smstools3 ssmtp"
+			"packages": "gl-base-files-ar gl-base-files-x300b gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci  gl-upload gl-ipv6 gl-rtty -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl smstools3 ssmtp -gl-ui",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-ath79-nand_3.8/files",
+			"arch": "mips"
 		},
 		"xe300": {
 			"state": "develop",
@@ -152,7 +164,9 @@
 			"version": "3.211",
 			"disabled": 0,
 			"imagebuilder": "3.8/openwrt-imagebuilder-mvebu-cortexa53_3.8",
-			"packages": "kmod-8192eu kmod-8812au kmod-8821cu kmod-8811au kmod-usb-gadget-eth gl-base-files-mv1000 $basic -kmod-usb-serial-cp210x -lighttpd-mod-openssl $vpn $storage $usb -kmod-rt2800-usb $glinet gl-s2s -kmod-GobiNet -kmod-GobiSerial -gl-qos gl-qos-internal gl-tertf gl-tor haveged usbutils wpa-cli luci luci-mod-rpc AdGuardHome gl-agh-stats -gl-upload"
+			"packages": "kmod-8192eu kmod-8812au kmod-8821cu kmod-8811au kmod-usb-gadget-eth gl-base-files-mv1000 $basic -kmod-usb-serial-cp210x -lighttpd-mod-openssl $vpn $storage $usb -kmod-rt2800-usb $glinet gl-s2s -kmod-GobiNet -kmod-GobiSerial -gl-qos gl-qos-internal gl-tertf gl-tor haveged usbutils wpa-cli luci luci-mod-rpc AdGuardHome gl-agh-stats -gl-upload -gl-ui",
+			"files": "imagebuilder/3.8/openwrt-imagebuilder-mvebu-cortexa53_3.8/files",
+			"arch": "arm64"
 		},
 		"ap1300": {
 			"state": "develop",
@@ -168,7 +182,9 @@
 			"version": "3.211",
 			"disabled": 0,
 			"imagebuilder": "3.5/openwrt-imagebuilder-ipq-ipq40xx-QSDK_Premium_3.5",
-			"packages": "-wpad-openssl gl-upload gl-wifison gl-base-files-ipq $glinet -gl-qos gl-qos-internal $vpn $basic $storage $usb -wpad -wpa-cli -kmod-rt2800-usb -kmod-GobiNet -kmod-GobiSerial -kmod-usb-storage-uas gl-tor gl-rtty"
+			"packages": "-wpad-openssl gl-upload gl-wifison gl-base-files-ipq $glinet -gl-qos gl-qos-internal $vpn $basic $storage $usb -wpad -wpa-cli -kmod-rt2800-usb -kmod-GobiNet -kmod-GobiSerial -kmod-usb-storage-uas gl-tor gl-rtty -gl-ui",
+			"files": "imagebuilder/3.5/openwrt-imagebuilder-ipq-ipq40xx-QSDK_Premium_3.5/files",
+			"arch": "arm"
 		},
 		"b2200": {
 			"state": "develop",
@@ -202,7 +218,9 @@
 			"profile": "QSDK_Premium",
 			"version": "3.213",
 			"imagebuilder": "3.6/openwrt-imagebuilder-ipq-ipq60xx-QSDK_Premium_3.6",
-			"packages": "-wpad-openssl gl-ble-ubus gl-ble_cfg_ax1800 gl-agh-stats gl-upload gl-wifison gl-base-files-ipq $glinet -gl-qos gl-qos-internal $vpn $basic $storage $usb -wpad -wpa-cli -kmod-rt2800-usb -kmod-GobiNet -kmod-GobiSerial -kmod-usb-storage-uas gl-tor rtty-openssl -lighttpd-mod-openssl gl-ipv6 bridge luci luci-mod-rpc kmod-i2c-gpio-custom gl-rtty kmod-mtdoops gl-sdk4-logread gl-init-portal"
+			"packages": "-wpad-openssl gl-ble-ubus gl-ble_cfg_ax1800 gl-agh-stats gl-upload gl-wifison gl-base-files-ipq $glinet -gl-qos gl-qos-internal $vpn $basic $storage $usb -wpad -wpa-cli -kmod-rt2800-usb -kmod-GobiNet -kmod-GobiSerial -kmod-usb-storage-uas gl-tor rtty-openssl -lighttpd-mod-openssl gl-ipv6 bridge luci luci-mod-rpc kmod-i2c-gpio-custom gl-rtty kmod-mtdoops gl-sdk4-logread gl-init-portal -gl-ui",
+			"files": "imagebuilder/3.6/openwrt-imagebuilder-ipq-ipq60xx-QSDK_Premium_3.6/files",
+			"arch": "arm"
 		}
 	}
 }
