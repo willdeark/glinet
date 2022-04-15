@@ -301,7 +301,7 @@
 			"version": "3.203",
 			"disabled": 0,
 			"imagebuilder": "3.5/openwrt-imagebuilder-mvebu-emmc-19075_mv1000_3.5",
-			"packages": "kmod-8192eu kmod-8812au kmod-8821cu kmod-8811au kmod-usb-gadget-eth gl-base-files-mv1000 $basic -kmod-usb-serial-cp210x -lighttpd-mod-openssl $vpn $storage $usb -kmod-rt2800-usb $glinet gl-s2s -kmod-GobiNet -kmod-GobiSerial -gl-qos gl-qos-internal gl-tertf gl-tor haveged usbutils wpa-cli luci luci-mod-rpc AdGuardHome gl-agh-stats -gl-ui",
+			"packages": "kmod-8192eu kmod-8812au kmod-8821cu kmod-8811au kmod-usb-gadget-eth gl-base-files-mv1000 $basic -kmod-usb-serial-cp210x -lighttpd-mod-openssl $vpn $storage $usb -kmod-rt2800-usb $glinet gl-s2s -kmod-GobiNet -kmod-GobiSerial -gl-qos gl-qos-internal gl-tertf gl-tor haveged usbutils wpa-cli luci luci-mod-rpc luci-base AdGuardHome gl-agh-stats -gl-ui",
 			"files": "imagebuilder/3.5/openwrt-imagebuilder-mvebu-emmc-19075_mv1000_3.5/files",
 			"arch": "arm64"
 		},
