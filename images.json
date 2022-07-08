@@ -130,7 +130,7 @@
 			"version": "3.211",
 			"disabled": 0,
 			"imagebuilder": "3.8/openwrt-imagebuilder-ath79-nand_3.8",
-			"packages": "gl-base-files-ar gl-base-files-x300b gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci  gl-upload gl-ipv6 gl-rtty -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl smstools3 ssmtp -gl-ui luci-base"
+			"packages": "gl-base-files-ar gl-base-files-x300b gl-rs485 kmod-gl-hw-wdt $basic $vpn  $usb $glinet -gl-tor -luci  gl-upload gl-ipv6 gl-rtty -wpad -wpad-basic wpad-openssl -lighttpd-mod-openssl smstools3 ssmtp -gl-ui luci-base",
 			"files": "imagebuilder/3.8/openwrt-imagebuilder-ath79-nand_3.8/files",
 			"arch": "mips"
 		},
